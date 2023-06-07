@@ -4,7 +4,7 @@ import HowToRegIcon from '@mui/icons-material/HowToReg';
 import BookmarkIcon from '@mui/icons-material/Bookmark';
 import React, { ReactElement } from 'react';
 import { Link } from 'react-router-dom';
-import { navBarItems } from '../utils/NavbarItems';
+import { navBarItems } from '../__mock/NavbarItems';
 import {
   Box,
   Button,

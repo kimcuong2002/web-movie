@@ -3,8 +3,8 @@ import MostProminentMovie from '../components/MostProminent/index';
 import demonslayer from '../assets/images/demonslayer.jpeg';
 import React, { ReactElement } from 'react';
 import { Grid, Box, Typography, Button } from '@mui/material';
-import { mostprominent } from '../utils/mostprominent';
-import { moviescomingsoon } from '../utils/moviescomingsoon';
+import { mostprominent } from '../__mock/mostprominent';
+import { moviescomingsoon } from '../__mock/moviescomingsoon';
 
 type IContentLayout = {
   children: ReactElement;

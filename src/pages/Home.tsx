@@ -1,5 +1,5 @@
 import DefaultLayout from '../layouts/DefaultLayout';
-import { dataFilms } from '../utils/FilmsItems';
+import { dataFilms } from '../__mock/FilmsItems';
 import { getPosts } from '../api/user.api';
 import { PostType } from '../models/post.type';
 import { useNavigate } from 'react-router-dom';
